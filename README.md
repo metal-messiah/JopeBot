@@ -2,7 +2,7 @@
 ### *JopeBot* is a desktop (Windows, Linux, Mac) twitch chat manager that aims to organize requests based on viewer interaction levels.  It is designed to integrate with [Twitch](http://twitch.com) channels, and use commands from the channel chat room to function.
 ### It uses the information you must provide in the ./config.json file to connect to your twitch and streamlabs accounts to provide a seamless, self-administering request manager.
 
-# [DOWNLOAD LATEST VERSION]("https://github.com/metal-messiah/JopeBot/releases")
+# [DOWNLOAD LATEST VERSION](https://github.com/metal-messiah/JopeBot/releases)
 
 ### [Configuration](#configuring-the-application-configjson)
 ### [Running the Application](#running-the-application-1)
