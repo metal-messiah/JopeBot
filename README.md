@@ -119,6 +119,9 @@
 * Is subject to time buffers
 * Example --> !give @jopethemetalmessiah 5
 
+### Remove your elevated request, and get your spent tokens refunded -- !refund
+* Refunds the amount of tokens you spent and removes your elevated request
+
 ### Vote for one of the active poll choices -- !vote 1 or !vote 2
 * Vote for the active poll choices
 * Only 1 vote per chat user
@@ -149,6 +152,9 @@
 ### Remove the next request in the setlist (does not play) -- !removenext
 * Removes the next unplayed request in the queue
 * Mainly for use on long standing null requests
+
+### Refund all elevated requests (must be sent from bot GUI) -- !refund
+* Removes elevated requests, and refunds appropriate token amounts
 
 ### Undo the last played song -- !undo
 * Places the last played song back into the setlist
