@@ -1,5 +1,3 @@
-### [Download JopeBot](https://github.com/metal-messiah/JopeBot/releases)
-
 # What *JopeBot* Is, and How It Works
 ### *JopeBot* is a desktop (Windows, Linux, Mac) twitch chat manager that aims to organize requests based on viewer interaction levels.  It is designed to integrate with [Twitch](http://twitch.com) channels, and use commands from the channel chat room to function.
 ### It uses the information you must provide in the ./config.json file to connect to your twitch and streamlabs accounts to provide a seamless, self-administering request manager.
@@ -12,7 +10,7 @@
 
 # Configuring the Application (config.json)
 
-## Edit ./config.json with a text editing application to configure the application
+## Configuration will occur the first time you open the application.  
 
 ### Steamlabs Socket API
 * Providing your [Streamlabs](https://streamlabs.com) "socket API code" will allow the application to utilize your donations in real time to manage the setlist
@@ -56,9 +54,19 @@
 * Example --> Setting to 0 days allows users unlimited priority requests.
 * Example --> Setting to 7 days makes users wait 1 week between priority requests.
 
+### Priority Request Tokens
+* Number of tokens a priority request costs
+
+### VIP Request Tokens
+* Number of tokens a VIP request costs
+
+### Currency Alias
+* What your tokens will be called
+* Example --> "Farts" --> You need 3 Farts to obtain a VIP request
+
 
 # Running the Application
-#### After Configuring ./config.json, run JopeBot.exe to activate the application.  A Console will open to provide information about the bot, and where messages will show if DEBUG = true.
+#### run JopeBot.exe to activate the application.  You can change settings without restarting the application.
 
 # Using With OBS
 
@@ -85,12 +93,31 @@
 * Requests will go into the setlist in the order in which they are received
 * Example --> !request Cirice by Ghost
 
+### Use Token(s) to Assign Priority -- !priority
+* Bumps the user's request up to the end of the existing priority users' requests
+* Tokens are auto-assigned by the bot for subs, re-subs, and 500 bit cheers
+* Requests will get bumped up through the setlist in the order in which they are received
+* Is subject to time buffers
+* Example --> !priority
 
-### View your current request status -- !myrequest
+### Use Token(s) to Assign VIP -- !vip
+* Bumps the user's request up to the end of the existing VIP users' requests
+* Tokens are auto-assigned by the bot for subs, re-subs, and 500 bit cheers
+* Requests will get bumped up through the setlist in the order in which they are received
+* Example --> !vip
+
+### View your current request status -- !me
 * Returns the user's request data
 * Description
-* isPriority?
+* isPriority? isVIP?
 * Position in line
+* Available Tokens
+* Number of Songs Played
+
+### Give tokens to a fellow twitch user -- !give USERNAME AMOUNT
+* Takes tokens from your stash, and places them into another's
+* Is subject to time buffers
+* Example --> !give @jopethemetalmessiah 5
 
 ### Vote for one of the active poll choices -- !vote 1 or !vote 2
 * Vote for the active poll choices
@@ -101,9 +128,9 @@
 
 ### Assign Priority -- !priority @username
 * Bumps the user's request up to the end of the existing priority users' requests
-* Priority will get auto-assigned by the bot for subs, re-subs, and 500 bit cheers
+* Tokens are auto-assigned by the bot for subs, re-subs, and 500 bit cheers
 * Requests will get bumped up through the setlist in the order in which they are received
-* Example --> !priority @jopethemetalmessiah
+* Example --> !priority
 
 ### Move user's request -- !move USERNAME
 * Move user's request to the very front of the setlist
