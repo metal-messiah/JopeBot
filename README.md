@@ -93,7 +93,7 @@
 * Requests will go into the setlist in the order in which they are received
 * Example --> !request Cirice by Ghost
 
-### Use Token(s) to Assign Priority -- !priority
+### Use Token(s) to Elevate Request -- Ask streamer/mods (default !priority)
 * Bumps the user's request up to the end of the existing priority users' requests
 * Tokens are auto-assigned by the bot for subs, re-subs, and 500 bit cheers
 * Requests will get bumped up through the setlist in the order in which they are received
