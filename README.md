@@ -14,9 +14,9 @@
 
 ## Configuration will occur the first time you open the application.  
 
-### Steamlabs Socket API
+### Steamlabs API
 * Providing your [Streamlabs](https://streamlabs.com) "socket API code" will allow the application to utilize your donations in real time to manage the setlist
-* API SETTINGS / API TOKENS / Your Socket API Token
+* API SETTINGS / API TOKENS / Your API Access Token
 
 ### Twitch Username
 * Tells the bot where to connect
