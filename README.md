@@ -108,13 +108,8 @@
 * Requests will get bumped up through the setlist in the order in which they are received
 * Example --> !vip
 
-### View your current request status -- !me
-* Returns the user's request data
-* Description
-* isPriority? isVIP?
-* Position in line
-* Available Tokens
-* Number of Songs Played
+### All JopeBot Data... live via Web Server! -- !info
+* Generates a URL to a web server that returns everything you'd want to know
 
 ### Give tokens to a fellow twitch user -- !give USERNAME AMOUNT
 * Takes tokens from your stash, and places them into another's
@@ -157,6 +152,12 @@
 
 ### Refund all elevated requests (must be sent from bot GUI) -- !refund
 * Removes elevated requests, and refunds appropriate token amounts
+
+### Add tokens to a user account -- !addtokens USERNAME AMOUNT
+* Example --> !addtokens @jopethemetalmessiah 5
+
+### Reset priority request cooldown time -- !resetcooldown USERNAME
+* Example --> !resetcooldown @jopethemetalmessiah
 
 ### Undo the last played song -- !undo
 * Places the last played song back into the setlist
