@@ -1,8 +1,9 @@
-# What *JopeBot* Is, and How It Works
+### What *JopeBot* Is, and How It Works
 [About Jopebot](http://www.jopebot.com/about "About JopeBot")
+
 ---
 
-# Installing JopeBot to Your Windows PC
+### Installing JopeBot to Your Windows PC
 [Installing Jopebot](http://www.jopebot.com/installation "Installing JopeBot")
 ---
 
