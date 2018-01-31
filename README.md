@@ -191,4 +191,10 @@
 
 [TheNogoJoe](https://twitch.tv/thenogojoe)
 
+[ForTakEr](https://twitch.tv/fortaker)
+
+[UnderscorePOY](https://twitch.tv/underscorepouy)
+
+[jdjohnston](https://twitch.tv/jdjohnston)
+
 
