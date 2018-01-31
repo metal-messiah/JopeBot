@@ -28,7 +28,7 @@
 
 ---
 
-# Notable JopeBot Twitch Streamers
+### Notable JopeBot Twitch Streamers
 [JasonParadise](https://twitch.tv/jasonparadise)
 
 [UKOGmonkey](https://twitch.tv/ukogmonkey)
