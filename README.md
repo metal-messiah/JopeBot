@@ -1,4 +1,4 @@
-### What *JopeBot* Is, and How It Works
+### What *JopeBot* Is and How It Works
 [About Jopebot](http://www.jopebot.com/about "About JopeBot")
 
 ---
