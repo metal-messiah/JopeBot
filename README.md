@@ -197,4 +197,10 @@
 
 [jdjohnston](https://twitch.tv/jdjohnston)
 
+[Riieno](https://twitch.tv/riieno)
+
+[theothechipmunk](https://twitch.tv/theothechipmunk)
+
+[Prownage88](https://twitch.tv/prownage88)
+
 
